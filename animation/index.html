@@ -19,8 +19,9 @@
             }
             .container {
                 position:relative;
-                width:100%;
+                width:50%;
                 height:100%;
+                margin:0 auto;
             }
             svg {
                 position:absolute;
@@ -28,16 +29,16 @@
             }
             .but {
                 position:absolute;
-                top:1em;right:1em;                
-                
+                top:1em;right:1em;
+
             }
-            .but a {                
+            .but a {
                 display:block;
                 font-family:monospace;
                 color:black;
                 text-decoration:none;
                 text-transform:uppercase;
-                padding:0.5em;      
+                padding:0.5em;
                 margin-bottom:0.25em;
                 background:white;
                 border:1px solid black;
@@ -52,7 +53,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="container">
-            <svg id="svg"></svg>    
+            <svg id="svg"></svg>
         </div>
 
         <div class="but">
@@ -60,12 +61,12 @@
             <a href="#" id="skip">Skip</a>
             <a href="#" id="full">Full</a>
         </div>
-        
+
         <script src="lib/jquery.js"></script>
         <script src="lib/underscore.js"></script>
         <script src="lib/backbone.js"></script>
-        <script src="lib/snap.svg.js"></script>        
-        
+        <script src="lib/snap.svg.js"></script>
+
         <script src="lsx/art.js"></script>
         <script src="lsx/logo.js"></script>
         <script src="lsx/square.js"></script>
@@ -74,7 +75,7 @@
 
         <script src="palettes.js"></script>
         <script src="app.js"></script>
-        <script> 
+        <script>
 
         var palettes = new Palettes();
 
@@ -82,17 +83,19 @@
             el:$('#svg'),
             cols:6,
             rows:5,
-        });    
+        });
 
         var app = new LSxApp({
-            artwork:artwork
+            el:"body",
+            artwork:artwork,
+            palettes:palettes
         });
 
         var t = new TimeLoop({
                     length:app.cols,
                     animator:function(num,args)
                     {
-                        app.squares.colorCol(num,num/app.cols);      
+                        app.squares.colorCol(num,num/app.cols);
                     },
                 });
 
@@ -100,7 +103,7 @@
                     length:app.rows,
                     animator:function(num,args)
                     {
-                        app.squares.colorRow(num,num/app.rows);      
+                        app.squares.colorRow(num,num/app.rows);
                     },
                 });
 
@@ -110,7 +113,7 @@
                     {
                         palettes.getPaletteByNum(num);
                     },
-                    delay:3000,     
+                    delay:3000,
                 });
 
         var q = new TimeLoop({
@@ -119,8 +122,8 @@
                     {
                         palettes.getNewPalette();
                     },
-                    delay:3000,   
-                    loop:true,  
+                    delay:3000,
+                    loop:true,
                 });
 
         palettes.on('palette',function()
