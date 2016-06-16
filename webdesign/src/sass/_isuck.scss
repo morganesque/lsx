@@ -1,0 +1,32 @@
+/*
+	A load of styles which I've just hacked in
+	and should really be consolidated into other 
+	more organised places. If this file has 
+	anything in it beyond this comment then 
+	you can quite liegitmately say that I 
+	comprehensively suck!
+*/
+
+body {
+	// font-family: 'Roboto', sans-serif;
+	/* 100,400,900,700,700italic,400italic */
+}
+
+.logo {
+	font-size:4em;
+	font-weight:100;
+}
+
+.container {
+	position:relative;
+	overflow:hidden;
+	svg {
+		position:absolute;
+		top:0;left:0;
+		width:100%;
+	}
+}
+
+.nav-top {
+	margin-top:2.5em;
+}

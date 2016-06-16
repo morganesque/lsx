@@ -1,0 +1,14 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "<2.0.0",
+    "modernizr": "latest",
+    "normalize-css": "latest",
+    "inuit.css": "latest",
+    "html5-boilerplate": "latest",
+    "foundation": "~5.2.3",
+    "backbone": "~1.1.2",
+    "snap.svg": "~0.3.0"
+  }
+}
