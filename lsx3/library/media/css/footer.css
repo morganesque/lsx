@@ -1,0 +1,109 @@
+/* Footer
+----------------------------------------------------------------------*/
+div#prefooter {
+    width:100%;
+    height:24px;
+    background:transparent url(../images/footer-back.png) repeat-x top left;
+}
+
+footer {
+    padding:24px 2%;
+    background-color:rgba(0,0,0,0.22);
+}
+/*footer a {color:white;}
+footer a:hover { color:white; text-decoration:underline; }*/
+
+div#footer {
+    width:90%;
+    margin:0px auto;
+}
+div#footer > div {
+    width:25%;
+    float:left;
+}
+
+/* Logo
+----------------------------------------------------------------------*/
+div#foot-logo {
+    text-align:center;
+}
+div#foot-logo img {
+    opacity:0.22;
+}
+
+div#foot-logo p {
+    margin-top:12px;
+    font-size:3.75em; /* 60/16 */
+    opacity:0.22;
+}
+div#foot-logo p a {color:black;}
+div#foot-logo p a:hover {text-decoration:none;}
+div#foot-logo p.copyright {
+    color:black;
+    font-size:.75em; /* 12/16 */
+    line-height:1.1em;
+    text-align:center;
+}
+
+/* Sub Brands
+----------------------------------------------------------------------*/
+ul#foot-subs {
+    list-style:none;
+    width:60%;
+    margin:0px auto;
+    font-size:.75em; /* 12/16 */
+    line-height:1.83333333333333333333em; /* 22/12 */
+}
+
+ul#foot-subs li {
+    text-align:left;
+    padding:0px;
+       -moz-border-radius: 11px 0px 22px 11px; 
+    -webkit-border-radius: 11px 0px 22px 11px; 
+            border-radius: 11px 0px 22px 11px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;    
+}
+ul#foot-subs li a {
+    display:block;
+    padding-left:10%;
+    opacity:0.76;
+       -moz-border-radius: 11px 0px 22px 11px; 
+    -webkit-border-radius: 11px 0px 22px 11px; 
+            border-radius: 11px 0px 22px 11px;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+ul#foot-subs li a:hover {
+    opacity:1;
+    background:rgba(255,255,255,0.76);
+}
+
+/* Nav
+----------------------------------------------------------------------*/
+div#foot-nav ul {
+    width:90%;
+    list-style:none;
+    opacity:0.42;
+}
+
+div#foot-nav ul li {
+    border-bottom:1px solid black;
+}
+
+div#foot-logos img {
+    width:66%;
+    margin:24px auto;
+    display:block;
+    opacity:0.42;
+}
+div#foot-logos img:first-child {
+    margin-top:0px;;
+}
+
+div#foot-about p {
+    width:100%;
+    margin:0px auto;
+    font-size:0.75em; /* 12/16 */
+    line-height:1.5em; /* 18/12 */
+    opacity:0.76;
+    text-align:left;
+}

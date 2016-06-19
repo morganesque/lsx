@@ -1,0 +1,97 @@
+body {
+    line-height:1.5em; /* 24/16 */
+}
+
+.multiplebgs .greyback {
+    background:    
+         url(../images/background/v2/1.png) fixed 10% 10% repeat
+/*        ,url(../images/background/v2/2.png) scroll 30% 30% repeat */
+        ,url(../images/background/v2/3.png) scroll 60% 60% repeat
+}
+
+h1 {font-size:3em;} /* 48/16 */
+h2 {font-size:2em;} /* 32/16 */
+
+h4 {
+    font-size:2em;
+    line-height:1.1em;
+}
+
+p {
+    margin-bottom:1.5em; /* 24/16 */
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+a:hover {
+    color:white;
+}
+
+nav a {
+    color:white;
+}
+
+.lsx-logo > * {
+    /* cross browser inline-block */
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    /* cross browser inline-block */
+}   
+
+header .sub-head {
+    color:white;
+    font-size:54px; 
+    text-transform:lowercase;
+    font-weight:bold;
+    vertical-align:baseline;
+    padding:24px 0px 36px;
+}
+
+.button {    
+    position:relative;
+    top:2px;
+    margin-top:1em;
+    padding:0.76em 1em;
+    border:none;
+    color:white;
+    cursor:pointer;
+    text-transform:lowercase;
+    /* taken from - css3please */
+    background-color: #333333;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#000000)); 
+    background-image: -webkit-linear-gradient(top, #333333, #000000); 
+    background-image:    -moz-linear-gradient(top, #333333, #000000); 
+    background-image:     -ms-linear-gradient(top, #333333, #000000); 
+    background-image:      -o-linear-gradient(top, #333333, #000000); 
+    background-image:         linear-gradient(top, #333333, #000000);
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#333333', EndColorStr='#000000'); 
+    /* taken from - css3please */    
+    -webkit-border-radius: 8px; 
+       -moz-border-radius: 8px; 
+            border-radius: 8px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+    /* taken from - css3please */    
+    -webkit-box-shadow: 0px 2px 4px #333; 
+       -moz-box-shadow: 0px 2px 4px #333; 
+            box-shadow: 0px 2px 4px #333; 
+    /* taken from - css3please */
+
+}
+.button:hover{
+    top:0px;
+    /* taken from - css3please */
+    background-color: #666666;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#000000)); 
+    background-image: -webkit-linear-gradient(top, #666666, #000000); 
+    background-image:    -moz-linear-gradient(top, #666666, #000000); 
+    background-image:     -ms-linear-gradient(top, #666666, #000000); 
+    background-image:      -o-linear-gradient(top, #666666, #000000); 
+    background-image:         linear-gradient(top, #666666, #000000);
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666', EndColorStr='#000000'); 
+    /* taken from - css3please */
+}
+.button:active{top:2px;}

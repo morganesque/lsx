@@ -1,0 +1,129 @@
+/* 
+    The Comments
+----------------------------------------------------------------------*/
+.commentlist {
+    list-style:none;
+    width:80%;
+    margin-left:20%;
+}
+.commentlist li {position:relative}
+
+.comment {
+    position:relative;
+    margin-bottom:1em;
+    padding:1em;
+    border-top:1px solid black;
+    border-bottom:1px dashed #ccc;
+}
+
+.comment h4 {
+    font-size:1.5em;
+    margin-bottom:0.5em;
+}
+.comment h4 a:hover {
+    color:#999;
+}
+.comment-meta {
+    position:absolute;
+    width:25%;
+    top:-1px;
+    left:-25%;
+}
+cite {
+    font-size:1.25em;
+    font-weight:bold;
+}
+
+.comment-meta p {
+    margin:0px;
+    padding:6px 0px 6px 24px;
+    font-size:.75em; /*12/16*/
+    line-height:1em;
+    text-transform:uppercase;    
+       -moz-border-radius: 0px 0px 0px 24px;
+    -webkit-border-radius: 0px 0px 0px 24px;
+            border-radius: 0px 0px 0px 24px;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+    background-color: rgba(0,0,0,0.42);
+}
+.comment-meta p.date {
+    border-top:1px solid black;
+    background-color: rgba(0,0,0,1);
+    color:white;
+}
+/* 
+    Comment form
+----------------------------------------------------------------------*/
+.respond {
+    border:1px solid #CCC;
+}
+
+.respond h2,
+.comments h2 {
+    font-size:1.25em; /* 20/16 */
+    font-weight:normal;
+    padding:0.5em 5% 0.5em;
+    color:white;
+    background:rgba(0,0,0,0.76);;
+    text-transform:lowercase;
+    margin-top:0;
+}
+
+.commentform {
+    margin-top:0px;
+    padding:1em 5%;
+}
+
+.commentform > div {
+    margin-top:0px;
+    margin-bottom:10px;
+}
+.commentform label {
+    float:left;
+    display:block;
+    text-transform:uppercase;
+    font-size:0.75em;
+    line-height:24px;
+    letter-spacing:0.2em;
+    background-color:rgba(0,0,0,0.22);
+    width:18%;
+    padding:6px 2%;
+    
+    /* taken from - css3please */
+       -moz-border-radius: 0px 0px 36px 0px; 
+    -webkit-border-radius: 0px 0px 36px 0px; 
+            border-radius: 0px 0px 36px 0px;
+    font-weight:900;
+    -webkit-transition: background-color 0.5s ease-out;
+	-moz-transition: background-color 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+	/* taken from - css3please */
+}
+
+label.error {display:none !important;}
+label.fine {background-color: rgba(0,150,0,0.42)}
+label.wrong {background-color: rgba(150,0,0,0.42)}
+
+.commentform .comment {
+    height:12em;
+}
+.commentform .sl-input  {
+    width:62.8%;
+}
+
+.commentform .sl-input,
+.commentform .comment {
+    clear:both;
+    float:left;
+    padding:6px 1%;
+    line-height:24px;
+    border:none;
+    background-color: rgba(255,255,255,0.90);
+    color:#999;
+}
+
+.commentform .sl-input:focus,
+.commentform .comment:focus {
+    background-color:rgba(255,255,255,1);
+}

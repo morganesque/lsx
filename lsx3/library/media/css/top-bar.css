@@ -1,0 +1,46 @@
+/*- Top Bar
+----------------------------------------------------------------------*/
+
+div#top-bar {
+    display:block;
+    cursor:pointer;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:12px;
+    width:100%;
+    overflow:hidden;
+    color:#fafafa;
+    background-color:rgba(0,0,0,0.22);
+/*    background:    
+        url(../images/background/topbar1.png) repeat-x top left, 
+        url(../images/background/topbar2.png) repeat-x top right;*/
+}
+
+div#top-bar p {
+    margin:0px auto 24px;
+    padding:12px 24px;
+    width:100%;
+}
+
+div#top-bar div.counter {
+    position:absolute;
+    width:12px;
+    text-align:left;
+    left:0px;
+    top:0px;
+    padding:1px 6px 1px;
+    color:white;
+    font-size:10px;
+    line-height:1em;
+    display:none;
+}
+
+div#top-bar a {
+    color:white;
+    text-transform:uppercase;
+    font-weight:900;
+}
+div#top-bar a:hover {
+    color:black;
+}

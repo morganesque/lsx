@@ -1,0 +1,160 @@
+body, input, textarea {
+	color: #333;
+    font: normal 16px/24px Arial, Verdana, sans-serif;
+    font-weight:300;
+    font-size:16px;
+    line-height:24px;
+	margin: 0;
+	padding: 0;
+	background-color:#FFF;
+}
+
+/*
+    Typekit stuff
+    
+    .tk-tachyon     - Techyon
+    .light          - 200   (Thin)
+    .reg            - 300   (Light)
+
+    .tk-museo-sans  - Museo Sans
+    .thin           - 100
+    .reg            - 300
+    .bold           - 900
+
+*/
+
+.light {font-weight:100;}
+.thin {font-weight:200;}
+.reg {font-weight:300;}
+.bold {font-weight:900;}
+
+.multiplebgs body {
+    background:    
+         url(../images/background/v2/1.png) fixed 10% 10% repeat
+/*        ,url(../images/background/v2/2.png) scroll 30% 30% repeat */
+        ,url(../images/background/v2/3.png) scroll 60% 60% repeat
+}
+
+/* 
+    Paragraph styles
+*/
+p {
+    margin-bottom:24px;
+}
+
+article p+p {
+    text-indent: 1em;
+    margin-top: -24px;
+}
+
+/* 
+    Heading styles
+*/
+
+h1, h2, h3, h4, h5, h6 { margin-bottom:24px; font-weight:bold; clear: both; text-transform:uppercase;}
+/*.tk-tachyon { font-family:'QuerroundRegular'; }*/
+
+h1 {
+  font-size: 3em; /* 48px --> 48 ÷ 16 = 3 */
+  line-height: 0.5em; /* 24px --> 24 ÷ 48 = 0.5 */
+  letter-spacing:-0.05em;
+}
+
+h2 {
+  font-size: 2.25em; /* 36px --> 36 ÷ 16 = 2.25 */
+  line-height: 1em;
+/*  line-height: 0.666em; /* 24px --> 24 ÷ 36 = .666 */
+}
+
+h3 {
+  font-size: 1.875em; /* 30px --> 30 ÷ 16 = 1.875 */
+  line-height: 0.8em; /* 24px --> 24 ÷ 30 = 0.8 */
+}
+
+h4 {
+  font-size: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
+  line-height: 1em; /* 24px --> 24 ÷ 24 = 1 */
+}
+
+h5, h6 {
+  font-size: 1em; /* 16px --> 16 ÷ 16 = 1 */
+  line-height: 1.5em; /* 24px --> 24 ÷ 16 = 1.5 */
+}
+
+.small {
+  font-size: 0.875em; /* 14px --> 14 ÷ 16 = .875 */
+  line-height: 1.714em  ; /* 24px --> 24 ÷ 14 = 1.714 */
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+/*--- LISTS ---*/
+ul, ol {
+  margin-bottom: 24px;
+}
+
+ul {
+  list-style: square outside;
+}
+
+ul ul,
+ol ol {
+  margin: 0 0 0 60px;
+}
+
+/*--- QUOTES ---*/
+blockquote {
+  margin: 0 60px 0 45px;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  text-indent: -0.4em;
+}
+
+blockquote b {
+  display: block;
+  text-indent: 0;
+}
+
+/*- Paul Irish's Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ ----------*/
+/*
+@font-face {
+  font-family: 'blah';
+  src: url('../fonts/BLAH.eot');
+  src: local('☺'),
+         url('../fonts/BLAH.woff') format('woff'), url('../fonts/BLAH.TTF') format('truetype');
+}
+*/
+
+/*- COLOURS
+----------------------------------------------------------------------*/
+
+.bg-pnk {background-color:#FF94EE;}
+.bg-blu {background-color:#A694FF;}
+.bg-lbl {background-color:#94DCFF;}
+.bg-trq {background-color:#94FFCA;}
+.bg-gre {background-color:#B8FF94;}
+.bg-yel {background-color:#FFEE94;}
+.bg-red {background-color:#FF9494;}
+
+.bg-blk {background-color:#000000;}
+.bg-gry {background-color:#CCCCCC;}
+.bg-wht {background-color:#FFFFFF;}
+
+.hv-bg-pnk:hover {background-color:#FF94EE;}
+.hv-bg-blu:hover {background-color:#A694FF;}
+.hv-bg-lbl:hover {background-color:#94DCFF;}
+.hv-bg-trq:hover {background-color:#94FFCA;}
+.hv-bg-gre:hover {background-color:#B8FF94;}
+.hv-bg-yel:hover {background-color:#FFEE94;}
+.hv-bg-red:hover {background-color:#FF9494;}
+
+.hv-bg-blk:hover {background-color:#000000;}
+.hv-bg-gry:hover {background-color:#CCCCCC;}
+.hv-bg-wht:hover {background-color:#FFFFFF;}
+
+.l-red-bg {background:#FFBEBD}
+.l-grn-bg {background:#B4E8CA}
+.l-blu-bg {background:#85DAF5}

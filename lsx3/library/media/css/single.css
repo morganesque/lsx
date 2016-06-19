@@ -1,0 +1,37 @@
+
+div.single article {
+    background:white;;
+    padding:24px 24px;
+    margin-top:24px;
+}
+
+
+div.single div#video {
+    margin:24px 0px 0px;
+}
+div.single div#video iframe {
+    display:block;
+}
+
+div.single article h2 {
+    line-height:48px;
+/*    margin-bottom:0px;*/
+/*    text-shadow:1px 1px 0px #999;*/
+}
+
+div#map_canvas {
+    width:100%;
+}
+
+div#map_info h3 {
+    font-size:1em;
+    line-height:1.2em;
+    margin:0px;
+    margin-top:12px;
+    text-transform:none;
+}
+div#map_info p {
+    margin:0px;
+    margin-top:12px;
+    line-height:1.2em;
+}

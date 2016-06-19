@@ -1,0 +1,43 @@
+/*- Left Col Twitter
+----------------------------------------------------------------------*/
+div#lsx-twitter {
+    margin:24px 0px;
+    padding:1px;
+}
+
+div#lsx-twitter h3 img {
+    position:absolute;
+    top:-18px;
+    right:-1%;
+}
+
+div.twit {
+    clear:both;
+    margin:0px;
+    padding:12px 12px;
+    border-bottom:1px solid #ccc;
+    font-size:0.75em; /* 12/16 = .75 */
+    line-height:1.4em;
+    color:#666;
+    opacity:0.6;
+    
+    -webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+
+div.twit:hover {
+    background:white;
+    opacity:1;
+}
+
+    div.twit p {
+        margin:0px;
+        overflow:auto;
+    }
+
+    div.twit img {
+        float:left;
+        margin:0px 10px 10px 0px;
+    }

@@ -1,0 +1,41 @@
+#editBar{
+    position:fixed;
+    bottom:0;
+    left:0;
+    background: #D3D3D3;
+    border-bottom: 1px solid #B8B8B8;
+    width:100%;
+    display:block;
+    background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(211,211,211)),
+    color-stop(0.75, rgb(231,231,231))
+    );
+    background-image:-moz-linear-gradient(
+    center bottom,
+    rgb(211,211,211) 0%,
+    rgb(231,231,231) 75%
+    );
+    padding:10px 0;
+    z-index:1001 !important;
+/*    display:none;*/
+}
+
+    #editBar p{
+        font: normal normal normal 12px/100% Arial, Helvetica, sans-serif;
+        padding: 0px 15px;
+        margin:0;
+    }
+    
+    #editBar p a{
+        text-decoration:none;
+        padding: 0 10px;
+        border-left: 1px solid #CCCCCC;
+    }
+    
+    #editBar p a.admin{
+        border-right:1px solid #E8E8E8;
+        border-left: none;
+    }

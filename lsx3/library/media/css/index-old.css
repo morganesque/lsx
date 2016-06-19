@@ -1,0 +1,176 @@
+/*- Index
+----------------------------------------------------------------------*/
+
+section#index {margin-top:36px;}
+
+section#index div.index-item {
+    position:relative;
+    background:white;
+/*    margin-bottom:24px;    */
+    background:rgba(255,255,255,0.85);
+    padding:0px 0px 12px 0px;     
+    margin-left:2%;
+}
+
+section#index div.index-item:first-child {
+    padding-top:24px;
+}
+
+section#index div.with-image {padding-top:12px;}
+
+    section#index div.index-item * {
+        clear:none;
+        margin:0px;
+        margin-bottom:24px;
+    }
+    
+    section#index div.index-item img {
+        width:86%;
+        margin:0px 6% 0px 8%;
+    }
+
+    section#index div.index-item h4 {
+        margin:12px 0px;
+        line-height:1em;        
+    }
+    
+    section#index div.index-item-image {
+        position:relative;
+        margin:0px;
+    }
+    
+    section#index div.index-item-image img {display:block;}
+    
+    section#index div.with-image h4 {
+        position:absolute;
+        bottom:0px;
+        left:8%;
+        background:rgba(255,255,255,0.6);
+        padding:6px 2%;  
+        margin:0px;
+        width:82%;      
+    }
+    
+    section#index div.index-item div.text {
+        overflow:auto;
+        padding:0px 6% 0px 8%;
+        margin:0px;
+        min-height:180px;
+    }
+
+    section#index div.with-image div.text {
+        margin-top:18px;
+    }
+
+    section#index div.index-item div.readmore {margin:0px 4% 24px 0px;float:left;}
+
+        section#index div.index-item div.readmore a {
+            display:block;
+            height:24px;
+            color:white;
+            font-weight:900;
+            padding:0px 12px;
+            margin-bottom:0px;  
+            text-transform:uppercase;                
+            -webkit-transition: background-color 0.5s ease-out;
+        	-moz-transition: background-color 0.5s ease-out;
+        	-o-transition: background-color 0.5s ease-out;
+        	transition: background-color 0.5s ease-out;
+        }
+    
+        section#index div.index-item div.readmore a:after {
+            content:'';
+            float:right;
+            display:block;
+            width:0; height:0;
+            border-top: 6px solid transparent; 
+            border-left: 12px solid white; 
+            border-bottom: 6px solid transparent; 
+            margin-top:6px;
+            margin-left:10px;
+        }
+
+        div.readmore a:hover {background:#999}
+
+        section#index div.index-item .bin {
+            clear:both;
+            font-size:0.6em;
+            white-space:nowrap;
+            width:86%;
+            margin:0px 6% 0px 8%;
+            overflow:hidden;
+            color:#CCC;
+        }
+
+section#index div.index-item div.icons {
+    position:absolute;
+    left:-10%;
+    padding:0px;
+    margin:12px 4% 0px 4%;
+    width:8%;
+}
+
+section#index div.with-image div.icons {
+    margin-top:0px;
+}
+
+    section#index div.index-item div.icons div {
+        display:block;
+        margin-bottom:12px;
+    }
+    
+        section#index div.index-item div.icons div img {
+            display:block;
+            margin-bottom:12px;
+        }
+
+    section#index div.index-item div.icons div.icon-date {
+        width:100%;
+        text-align:center;
+        opacity:1;
+    }
+    
+        section#index div.index-item div.icons div.icon-date p {
+            margin:0px;
+        }
+        
+        section#index div.index-item div.icons div.icon-date p.day {
+            border:3px solid #333;
+            font-weight:900;
+            font-size:0.625;
+            line-height:18px;
+            background:white;
+        }
+        
+        section#index div.index-item div.icons div.icon-date p.month {
+            background:#333;
+            font-weight:900;
+            text-transform:uppercase;
+            color:white;
+            line-height:1.4em;
+            padding-bottom:2px;
+        }
+
+    section#index div.index-item div.icons div.icon-comments {
+        width:100%;
+        background:url(../images/icon-comments.png) no-repeat top left;
+        font-size:1.2em;
+        font-weight:300;
+        text-align:center;
+        background:red;
+    }
+    
+    section#index div.index-item div.icons div.icon-type {
+        border:1px solid #999;
+        display:block;
+        font-weight:900;
+        font-size:0.625em;
+        text-align:center;
+        text-transform:uppercase;
+        line-height:1.2em;
+        width:100%;
+    }
+    section#index div.index-item div.icons div.icon-type img {
+        width:100%;
+        margin:0px;
+    }

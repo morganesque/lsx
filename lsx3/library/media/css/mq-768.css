@@ -1,0 +1,22 @@
+img#bottom-fade {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:20px;
+    pointer-events:none;
+}
+
+
+
+.little-caps {
+    font-size:0.5625em; /* 12 / 16 = .75 -- 11 / 16 = .6875 -- 10 / 16 = .625 -- 9 / 16 = .5625 */
+}
+
+nav ul {
+    width:100%;
+}
+
+nav li {
+    width:auto;
+}

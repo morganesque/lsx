@@ -1,0 +1,60 @@
+/*- About 
+----------------------------------------------------------------------*/
+div#about-content {
+    padding:0px 0px 12px;
+    color:white;
+    opacity:0.76;
+    font-size:.75em ; /* 12/16 */
+    line-height:1.5em; /* 18/12 */
+    display:none;
+/*    border-radius: 0px 0px 6px 6px;*/
+}
+
+div#about-content h4 {
+    margin:0px 0px 6px;
+}
+
+div#about-content p {
+    margin:0px;
+}
+
+div#about-content article {
+    background:none;
+}
+
+div#about-tab {
+    position:relative;
+    border-top:1px dashed #666;
+    margin-bottom:36px;
+}
+div#about-tab a {
+    position:absolute;
+    top:-1px;
+    left:0px;    
+    z-index:1;
+    display:block;
+    background-color:rgba(100,100,100,0.2);
+    padding:0px 7px 0px;       
+    /*
+       -moz-border-radius: 0px 0px 5px 5px; 
+    -webkit-border-radius: 0px 0px 5px 5px; 
+            border-radius: 0px 0px 5px 5px; 
+    */
+    border:1px solid #999;
+        border-top:1px dashed #666;
+/*    border-top:none;*/
+    line-height:23px;
+    
+    text-transform:uppercase;
+    font-weight:900;
+    color:#666;
+    letter-spacing:0.15em;
+    /*font-size:1em; /* 12 / 16 = .75 -- 11 / 16 = .6875 -- 10 / 16 = .625 -- 9 / 16 = .5625 */
+    font-size:0.5625em; /* 12 / 16 = .75 -- 11 / 16 = .6875 -- 10 / 16 = .625 -- 9 / 16 = .5625 */
+}
+div#about-tab a.a-up {
+   background-color:rgba(200,200,200,0.6); 
+}
+div#about-tab a:hover {
+    background-color:#fafafa;
+}

@@ -1,0 +1,11 @@
+div#page {
+    max-width:940px;
+}
+
+div#left {
+    float:left;
+    margin:0px 20px 0px 0px ;
+}
+
+
+

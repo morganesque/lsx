@@ -1,0 +1,241 @@
+/* Comment Title
+----------------------------------------------------------------------*/
+div#respond h3,
+div#comments h3 {
+    font-size:1.25em; /* 20/16 */
+    line-height:1.2em; /* 24/20 */
+    margin:24px 0px 12px;   
+}
+/* Comments
+----------------------------------------------------------------------*/
+div#comments {
+    padding:1em 0px;
+}
+ol.comment-list {
+    list-style:none;
+    width:80%;
+    margin-left:20%;
+}
+ol.comment-list li {
+    position:relative;
+}
+
+/* avatar link */
+a.avatar-link {
+    width:10%;
+    float:left;
+    margin:0px 2% 0px 0px;
+}
+a.avatar-link img {
+    display:block;
+}
+/* commenter name */
+cite.commenter {
+    display:block;
+    float:left;
+    font-size:1.25em; /* 20/16 */
+    margin:2% 0px 0px;
+    font-style:normal;
+}
+/* commenter body */
+div.comment-content {
+    clear:left;
+    font-size:.875em;/* 14/16 */
+    margin-left:12%;
+}
+/* Comment Meta 
+----------------------------------------------------------------------*/
+div.comment-meta {
+    position:absolute;
+    width:25%;
+    top:0px;
+    left:-25%;
+}
+div.comment-meta p {
+    margin:0px;
+    padding:6px 0px 6px 24px;
+    font-size:.75em; /*12/16*/
+    line-height:1em;
+    text-transform:uppercase;    
+       -moz-border-radius: 0px 0px 0px 24px;
+    -webkit-border-radius: 0px 0px 0px 24px;
+            border-radius: 0px 0px 0px 24px;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+    background-color: rgba(0,0,0,0.42);
+}
+div.comment-meta p.date {
+    border-top:1px solid black;
+    background-color: rgba(0,0,0,1);
+    color:white;
+    margin-top:10px;
+}
+/* Comment list
+----------------------------------------------------------------------*/
+ol.comment-list {
+    list-style:none;
+}
+ol.comment-list li {
+    padding:12px;
+    margin-bottom:12px;
+}
+ol.comment-list li:nth-child(odd) {background-color: rgba(255,255,255,0.62);}
+ol.comment-list li:nth-child(even) {background-color: rgba(255,255,255,0.22);}
+
+/* Comment Form
+----------------------------------------------------------------------*/
+
+a.logged {
+    float:left;
+    display:block;
+    background-color: rgba(255,255,255,0.76);
+    margin:0px 12px 12px 0px;
+    padding:0px 6px;
+}
+a.logged:hover {
+    padding:0px 6px;
+    background-color: rgba(255,255,255,1);
+    
+}
+
+/* Input Elements
+----------------------------------------------------------------------*/
+form#comment-form {
+    margin-top:0px;
+    border-top:1px solid rgba(0,0,0,0.12);;
+}
+form#comment-form div {
+    margin-top:0px;
+    margin-bottom:10px;
+}
+form#comment-form label {
+    float:left;
+    display:block;
+    text-transform:uppercase;
+    font-size:0.8em;
+    letter-spacing:0.2em;
+    background-color:rgba(0,0,0,0.22);
+    width:18%;
+    padding:6px 2%;
+       -moz-border-radius: 0px 0px 36px 0px; 
+    -webkit-border-radius: 0px 0px 36px 0px; 
+            border-radius: 0px 0px 36px 0px;
+    font-weight:900;
+    -webkit-transition: background-color 0.5s ease-out;
+	-moz-transition: background-color 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+form#comment-form label.error {display:none !important;}
+form#comment-form label.fine {background-color: rgba(0,150,0,0.42)}
+form#comment-form label.wrong {background-color: rgba(150,0,0,0.42)}
+
+form#comment-form textarea#comment {
+    width:72%;
+    height:12em;
+
+}
+form#comment-form input {
+    width:50%;
+}
+
+form#comment-form input,
+form#comment-form textarea#comment {
+    clear:both;
+    float:left;
+    padding:6px 1%;
+    border:none;
+    background-color: rgba(255,255,255,0.62);
+    color:#999;
+}
+    
+body.firefox form#comment-form input,
+body.firefox form#comment-form textarea#comment {
+    padding:8px 6px;
+}
+form#comment-form textarea#comment:focus,
+form#comment-form input:focus {
+    background-color:rgba(255,255,255,1);
+}
+/* Allowed tags
+----------------------------------------------------------------------*/
+form#comment-form p#allowed-tags {
+    background-color: rgba(0,0,0,0.22);
+    float:left;
+    width:20%;
+    margin-left:2%;  
+    padding:1% 2%;
+}
+form#comment-form p#allowed-tags a {
+    position:relative;
+    display:block;
+    /* height:19.2em; /* 12*(16/10) */
+    font-size:.75em; /* 12/16 */
+    line-height:1em;
+}
+form#comment-form p#allowed-tags a:before {
+    position:relative;
+    content:'';
+    float:right;
+    display:block;
+    width:0; height:0;
+    border-top: 6px solid transparent; 
+    border-left: 12px solid white; 
+    border-bottom: 6px solid transparent; 
+    margin-top:0px;
+    margin-left:10px;
+}
+form#comment-form p#allowed-tags a span {
+    position:absolute;
+    top:24px;
+    left:1%;
+    line-height:1.2em;
+    opacity:0;
+    color: rgba(0,0,0,0.76);
+    -webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+form#comment-form p#allowed-tags a:hover span {opacity:1;}
+
+
+form#comment-form div#form-section-actions {
+    margin-top:10px;
+}
+/* Submit
+----------------------------------------------------------------------*/
+form#comment-form button#submit {
+    text-transform:uppercase;
+    font-size:0.8em;
+    font-family:inherit;
+    border:1px dashed rgba(0,0,0,0.42);
+    background-color: rgba(0,0,0,0.22);
+    padding:12px 3%;
+    font-size:1.125em; /* 18/16 */
+       -moz-border-radius: 12px 12px 12px 12px; 
+    -webkit-border-radius: 12px 12px 12px 12px; 
+            border-radius: 12px 12px 12px 12px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;    
+       -moz-box-shadow: 0px 0px 12px #000; 
+    -webkit-box-shadow: 0px 0px 12px #000; 
+            box-shadow: 0px 0px 12px #FFF; 
+}
+
+form#comment-form button#submit:hover {
+    background-color: rgba(1,1,1,0.22);
+}
+
+div.comment-reply {
+    display:none;
+}
+
+div.navigation-links {
+    margin:10px;
+}
+div.navigation-links div.nav-previous {
+    float:left;
+}
+div.navigation-links div.nav-next {
+    float:right;
+}
