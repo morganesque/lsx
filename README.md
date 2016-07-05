@@ -10,6 +10,6 @@ Further instructions for deployment of this can be found in this [README file](h
 ### Design
 There is some initial visual design ideas that can be found in the [brand](https://github.com/morganesque/lsx/tree/master/brand) folder.
 
-There is an [example web layout](http://morganesque.com/lsx/webdesign/build/) that would have formed the basis for the visual design of the final Wordpress theme.
+There is an [example web layout](http://morganesque.com/lsx/webdesign/build/) that would have formed the basis for the visual design of the final Wordpress theme. **Nb. Refresh to see different colour options**.
 
 There is [some animation work](http://morganesque.com/lsx/animation/) based around the visual design ideas which would have formed the basis for a home page hero panel and a recurring motif for the rest of the site.
