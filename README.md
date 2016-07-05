@@ -3,7 +3,7 @@
 This repo contains all the work done for the proposed LSx website.
 
 ### Wordpress theme (& data structure)
-A Wordpress theme is included [lsx5](https://github.com/morganesque/lsx/tree/master/lsx5). This includes a SQL dump, and plugins required to recreate the site on a server with PHP and MySQL available. This reflects all work done to prepare a suitable data structure for the proposed content.
+A Wordpress theme is included [lsx5](https://github.com/morganesque/lsx/tree/master/lsx5). This includes a [SQL dump](https://github.com/morganesque/lsx/blob/master/lsx5/wp_lsx.sql), and plugins required to recreate the site on a server with PHP and MySQL available. This reflects all work done to prepare a suitable data structure for the proposed content.
 
 Further instructions for deployment of this can be found in this [README file](https://github.com/morganesque/lsx/tree/master/lsx5).
 
