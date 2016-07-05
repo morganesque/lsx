@@ -8,7 +8,7 @@ A Wordpress theme is included [lsx5](https://github.com/morganesque/lsx/tree/mas
 Further instructions for deployment of this can be found in this [README file](https://github.com/morganesque/lsx/tree/master/lsx5).
 
 ### Design
-There is some initial visual design ideas that can be found in the [branding](https://github.com/morganesque/lsx/tree/master/branding) folder.
+There is some initial visual design ideas that can be found in the [brand](https://github.com/morganesque/lsx/tree/master/brand) folder.
 
 There is an [example web layout](http://morganesque.com/lsx/webdesign/build/) that would have formed the basis for the visual design of the final Wordpress theme.
 
